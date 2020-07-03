@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rockshow</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<style>
+			.mySlides {display:none}
+			</style>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Crescendo</strong> <span></span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="crescendo.html">Crescendo</a></li>
+						<li><a href="rockshow.html">Rockshow</a></li>
+						<li><a href="carnival.html">Carnival</a></li>
+						<li><a href="prizes.html">Prizes</a></li>
+						<li><a href="lockdown.html">Lockdown Blues</a></li>
+						<li><a href="mentors.html">Our Mentors</a></li>
+					</ul>
+				</nav>>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/test.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Rockshow</h1>
+							</header>
+							<div class="content">
+								<p>Our fundraiser for the youth power of the school<br />
+								This is the perfect platform for the students to display and showcase their talents</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+										<div class="w3-container">
+										  </div>
+										  
+										  <div class="w3-content" style="max-width:px">
+											<img class="mySlides" src="prizes/bro.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/cad1.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/crescendo.jpeg" style="width:100%">
+										  </div>
+										  
+										  <div class="w3-center">
+											<div class="w3-section">
+											  <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+											  <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+											</div>
+											<button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+											<button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+											<button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+										  </div>
+										  
+										  <script>
+										  var slideIndex = 1;
+										  showDivs(slideIndex);
+										  
+										  function plusDivs(n) {
+											showDivs(slideIndex += n);
+										  }
+										  
+										  function currentDiv(n) {
+											showDivs(slideIndex = n);
+										  }
+										  
+										  function showDivs(n) {
+											var i;
+											var x = document.getElementsByClassName("mySlides");
+											var dots = document.getElementsByClassName("demo");
+											if (n > x.length) {slideIndex = 1}    
+											if (n < 1) {slideIndex = x.length}
+											for (i = 0; i < x.length; i++) {
+											  x[i].style.display = "none";  
+											}
+											for (i = 0; i < dots.length; i++) {
+											  dots[i].className = dots[i].className.replace(" w3-red", "");
+											}
+											x[slideIndex-1].style.display = "block";  
+											dots[slideIndex-1].className += " w3-red";
+										  }
+										  </script>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>What its all about</h3>
+											</header>
+											<p>A highly anticipated event of the year amongst the students, Rockshow is all about dance, music and fun.</p>
+											<ul class="actions">
+												
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="" class="image">
+										<img src="images/rockshowchange.jpeg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Why the school enjoys it so much</h3>
+											</header>
+											<p>Organised annually, it is an event full of energy, liveliness and verve. Rockshow has an interesting line up of school's band as well as professional bands captivating the audience with evergreen and catchy songs which gets everyone on their feet.</p>
+											<ul class="actions">
+												
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

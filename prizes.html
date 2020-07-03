@@ -5,6 +5,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<style>
+			.mySlides {display:none}
+			</style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -41,22 +45,89 @@
 									<header class="major">
 										<h1>Prizes</h1>
 									</header>
-									<span class="image main"><img src="images/team.jpg" alt="" /></span>
-									<p style="font-size:50px"><b>First</b>
-									<p>Russian Centre of Science and Culture</p>
-									<p style="font-size:50px"><b>Second</b></p>
-									<p>Dynamics, DPS RK Puram</p>
-									<p>Literati, AIS Gurgaon 46</p>
-									<p>Bro Bergin's, Mount St. Mary's</p>
-									<p>Cadence, St. Columbus</p>
-									<p style="font-size:50px"><b>Third</b></p>
-									<p>Saptak, St. Joseph and Mary</p>
-									<p>Thunder, DPS Noida</p>
-									<p style="font-size:50px"><b>Individuals</b></p>
-									<p>Devashish Gupta - 1 Best Guitarist</p>
-									<p>Ayan Sharma - 2 Best Drummers</p>
-									<p>Apratim Kakoty - 3 Best Guitarists</p>
-									<p>Karthik Suresh - 3 Best Bassists</p>
+									<span class="image main">
+<div class="w3-container">
+										  </div>
+										  
+										  <div class="w3-content" style="max-width:px">
+											<img class="mySlides" src="prizes/bro.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/cad1.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/crescendo.jpeg" style="width:100%">
+											<img class="mySlides" src="prizes/cad2.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/dynamics.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/literati.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/saptak.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/wired.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/thunder.jpg" style="width:100%">
+											<img class="mySlides" src="prizes/russia.jpeg" style="width:100%">
+											<img class="mySlides" src="prizes/yamaha.jpg" style="width:100%">
+										  </div>
+										  
+										  <div class="w3-center">
+											<div class="w3-section">
+											  <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+											  <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+										  
+										  <script>
+										  var slideIndex = 1;
+										  showDivs(slideIndex);
+										  
+										  function plusDivs(n) {
+											showDivs(slideIndex += n);
+										  }
+										  
+										  function currentDiv(n) {
+											showDivs(slideIndex = n);
+										  }
+										  
+										  function showDivs(n) {
+											var i;
+											var x = document.getElementsByClassName("mySlides");
+											var dots = document.getElementsByClassName("demo");
+											if (n > x.length) {slideIndex = 1}    
+											if (n < 1) {slideIndex = x.length}
+											for (i = 0; i < x.length; i++) {
+											  x[i].style.display = "none";  
+											}
+											for (i = 0; i < dots.length; i++) {
+											  dots[i].className = dots[i].className.replace(" w3-red", "");
+											}
+											x[slideIndex-1].style.display = "block";  
+											dots[slideIndex-1].className += " w3-red";
+										  }
+										  </script>
+									</span>
+									<p><b><h1>2020-21</h1></b>
+									<p><h2>RUSSIAN CENTRE OF SCIENCE AND CULTURE</h2></br>
+										Mannat Bhalla, Ananya Sharma and Simran Joshi bagged the first position in the Russian vocal singing competition. They were invited by the judges to the Russian Embassy to sing for the celebration of the 75th anniversary of their victory in the Great Patriotic War in May.</p>
+									<p><b><h1>2019-20</h1></b></p>
+									<p><h2>DYNAMICS</h2></br>
+										Students of the western music society participated in Dynamics held at DPS RK Puram on the 27th and
+										28th of April 2019. Our school band secured the 3rd position and choir secured the 2nd position for their
+										exemplary showcase of talent.</p>
+									<p><h2>LITERATI</h2></br>
+										At Literati Fest held at AIS Gurugram 46 on 16th of August, our choir secured the 2nd position in the
+										German song category for their proficiency in both-fluency of language and techniques involved in
+										singing.</p>
+									<p><h2>BRO. BERGINS</h2></br>
+										Bro. Bergin’s Meet was organized at Mt. St. Mary’s school on the 22nd of August in which our school
+										band secured the 2nd position and Ayan Sharma of class XI won the individual prize for Best Drummer.</p>
+									<p><h2>CADENCE</h2></br>
+										At Cadence, organized by St. Columbus School on 18th of October, our school band put up an excellent
+										performance and secured the 2nd position in the band category. Apratim Kakoty and Karthik Suresh of
+										class XI won the individual prizes for Best Guitarist and Best Bassist respectively.</p>
+									<p><h2>CRESCENDO</h2></br>
+										Crescendo, one of the best inter-school western music competition was hosted at our school by the
+										Western Music Society on the 25th and 26th of July 2019. Devashish Gupta of class XII and Ayan Sharma of
+										class XI won the individual prizes for Best Guitarist and Best Drummer respectively.</p>
+									<p><h2>SAPTAK</h2></br>
+										At Saptak held at St. Joseph and Mary School on 22nd August 2019,our school band secured the 3rd
+										position and Apratim Kakoty of class XI won the award for Best Guitarist.</p>
+									<p><h2>Thunder</h2></br>
+										At Thunder held at DPS Noida school on the 8th of november, our school put up an excellent performance. They secured 3rd position.</p>
+									<p><h2>WIRED</h2></br>
+										At Wired held at Heritage school on the 16th of August, Ayan Sharma of class XI won the award for Best
+										Drummer and Apratim Kakoty of class XI won the award for Best Guitarist for their exceptional skills.</p>
 								</div>
 							</section>
 
