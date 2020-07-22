@@ -1,0 +1,228 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TS | Register</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="shortcut icon" href="/static/assets/ts.png"/>
+  <link rel="stylesheet" href="/static/css/normalize.css"/>
+  <link rel="stylesheet" href="/static/css/skeleton.css"/>
+  <link rel="stylesheet" href="/static/css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="/static/index.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div id="navbar" class="topnav">
+    <a href="/" id="logo"><img class="logo" src="/static/assets/ts.png"></a>
+    
+    
+  </div>
+  
+  <div class="container">
+    <h1>
+<h1>Register</h1>
+</h1>
+    
+<p>Welcome to the 7<sup>th</sup> edition of Tech Syndicate's annual event: Robotronics.<br>
+If you haven't already, check out the event details <a href="https://ctrl.gq/eventdetails">here</a>.<br>
+Registrations will close on 25th July, 2020.</p>
+<form method="post" action="/">
+    <input type="hidden" name="csrfmiddlewaretoken" value="o28WcVreJ4so7PI9ihKXKSL6UAvvnOhTGyWzSFuboe7thI2yGU3yL8z7fgJ2l8Ue">
+    <input required name="school_name" type="text" placeholder="School name"><br><br>
+    <input required name="school_address" type="text" placeholder="School address"><br><br>
+    <input required name="club_name" type="text" placeholder="Club name"><br><br>
+    <input required name="club_email" type="email" placeholder="Club email"><br><br>
+    <input required name="student_incharge" type="text" placeholder="Student incharge"><br><br>
+    <input required name="student_tel" type="tel" pattern="[0-9]{10}" placeholder="Student telephone"><br><br>
+    <input required name="teacher_incharge" type="text" placeholder="Teacher incharge"><br><br>
+    <input required name="teacher_tel" type="tel" pattern="[0-9]{10}" placeholder="Teacher telephone"><br><br>
+
+    <div class="events">
+        <h4>Events</h4>
+        <label>
+            <input type="checkbox" id="hackathon-check">
+            <span class="label-body">Hackathon</span>
+        </label>
+        <label>
+            <input type="checkbox" id="designathon-check">
+            <span class="label-body">Designathon</span>
+        </label>
+        <label>
+            <input type="checkbox" id="gd-check">
+            <span class="label-body">Group Discussion</span>
+        </label>
+        <label>
+            <input type="checkbox" id="surprise-check">
+            <span class="label-body">Surprise</span>
+        </label>
+        <label>
+            <input type="checkbox" id="crossword-check">
+            <span class="label-body">Crossword</span>
+        </label>
+        <label>
+            <input type="checkbox" id="audio-mixing-check">
+            <span class="label-body">Audio Mixing</span>
+        </label>
+        <label>
+            <input type="checkbox" id="sr-robotics-check">
+            <span class="label-body">Sr Robotics</span>
+        </label>
+        <label>
+            <input type="checkbox" id="jr-robotics-check">
+            <span class="label-body">Jr Robotics</span>
+        </label>
+        <label>
+            <input type="checkbox" id="jr-quiz-check">
+            <span class="label-body">Jr Quiz</span>
+        </label>
+        <label>
+            <input type="checkbox" id="adobe-spark-check">
+            <span class="label-body">Adobe Spark</span>
+        </label>
+        <label>
+            <input type="checkbox" id="paint3d-check">
+            <span class="label-body">Paint 3D</span>
+        </label>
+    </div>
+    <div id="hackathon">
+        <h5>Hackathon</h5>
+        <p>Eligibility: IX-XII</p>
+        <h6>Participant 1</h6>
+        <input name="hack_p1name" type="text" placeholder="Name"><br><br>
+        <input name="hack_p1class" type="text" placeholder="Class"><br><br>
+        <input name="hack_p1email" type="email" placeholder="Email"><br><br>
+        <h6>Participant 2</h6>
+        <input name="hack_p2name" type="text" placeholder="Name"><br><br>
+        <input name="hack_p2class" type="text" placeholder="Class"><br><br>
+        <input name="hack_p2email" type="email" placeholder="Email"><br><br>
+        <h6>Participant 3</h6>
+        <input name="hack_p3name" type="text" placeholder="Name"><br><br>
+        <input name="hack_p3class" type="text" placeholder="Class"><br><br>
+        <input name="hack_p3email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="designathon">
+        <h5>Designathon</h5>
+        <p>Eligibility: IX-XII</p>
+        <h6>Participant 1</h6>
+        <input name="design_p1name" type="text" placeholder="Name"><br><br>
+        <input name="design_p1class" type="text" placeholder="Class"><br><br>
+        <input name="design_p1email" type="email" placeholder="Email"><br><br>
+        <h6>Participant 2</h6>
+        <input name="design_p2name" type="text" placeholder="Name"><br><br>
+        <input name="design_p2class" type="text" placeholder="Class"><br><br>
+        <input name="design_p2email" type="email" placeholder="Email"><br><br>
+        <h6>Participant 3</h6>
+        <input name="design_p3name" type="text" placeholder="Name"><br><br>
+        <input name="design_p3class" type="text" placeholder="Class"><br><br>
+        <input name="design_p3email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="gd">
+        <h5>Group Discussion</h5>
+        <p>Eligibility: IX-XII</p>
+        <h6>Participant 1</h6>
+        <input name="gd_p1name" type="text" placeholder="Name"><br><br>
+        <input name="gd_p1class" type="text" placeholder="Class"><br><br>
+        <input name="gd_p1email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="surprise">
+        <h5>Surprise</h5>
+        <p>Eligibility: IX-XII</p>
+        <h6>Participant 1</h6>
+        <input name="surprise_p1name" type="text" placeholder="Name"><br><br>
+        <input name="surprise_p1class" type="text" placeholder="Class"><br><br>
+        <input name="surprise_p1email" type="email" placeholder="Email"><br><br>
+        <h6>Participant 2</h6>
+        <input name="surprise_p2name" type="text" placeholder="Name"><br><br>
+        <input name="surprise_p2class" type="text" placeholder="Class"><br><br>
+        <input name="surprise_p2email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="crossword">
+        <h5>Crossword</h5>
+        <p>Eligibility: IX-XII</p>
+        <h6>Participant 1</h6>
+        <input name="cross_p1name" type="text" placeholder="Name"><br><br>
+        <input name="cross_p1class" type="text" placeholder="Class"><br><br>
+        <input name="cross_p1email" type="email" placeholder="Email"><br><br>
+        <h6>Participant 2</h6>
+        <input name="cross_p2name" type="text" placeholder="Name"><br><br>
+        <input name="cross_p2class" type="text" placeholder="Class"><br><br>
+        <input name="cross_p2email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="audio-mixing">
+        <h5>Audio Mixing</h5>
+        <p>Eligibility: IX-XII</p>
+        <h6>Participant 1</h6>
+        <input name="audio_p1name" type="text" placeholder="Name"><br><br>
+        <input name="audio_p1class" type="text" placeholder="Class"><br><br>
+        <input name="audio_p1email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="sr-robotics">
+        <h5>Sr Robotics</h5>
+        <p>Eligibility: IX-XII</p>
+        <h6>Participant 1</h6>
+        <input name="srrobotics_p1name" type="text" placeholder="Name"><br><br>
+        <input name="srrobotics_p1class" type="text" placeholder="Class"><br><br>
+        <input name="srrobotics_p1email" type="email" placeholder="Email"><br><br>
+        <h6>Participant 2</h6>
+        <input name="srrobotics_p2name" type="text" placeholder="Name"><br><br>
+        <input name="srrobotics_p2class" type="text" placeholder="Class"><br><br>
+        <input name="srrobotics_p2email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="jr-robotics">
+        <h5>Jr Robotics</h5>
+        <p>Eligibility: V-VIII</p>
+        <h6>Participant 1</h6>
+        <input name="jrrobotics_p1name" type="text" placeholder="Name"><br><br>
+        <input name="jrrobotics_p1class" type="text" placeholder="Class"><br><br>
+        <input name="jrrobotics_p1email" type="email" placeholder="Email"><br><br>
+        <h6>Participant 2</h6>
+        <input name="jrrobotics_p2name" type="text" placeholder="Name"><br><br>
+        <input name="jrrobotics_p2class" type="text" placeholder="Class"><br><br>
+        <input name="jrrobotics_p2email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="jr-quiz">
+        <h5>Jr Quiz</h5>
+        <p>Eligibility: VII-VIII</p>
+        <h6>Participant 1</h6>
+        <input name="jrquiz_p1name" type="text" placeholder="Name"><br><br>
+        <input name="jrquiz_p1class" type="text" placeholder="Class"><br><br>
+        <input name="jrquiz_p1email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="adobe-spark">
+        <h5>Adobe Spark</h5>
+        <p>Eligibility: V-VI</p>
+        <h6>Participant 1</h6>
+        <input name="spark_p1name" type="text" placeholder="Name"><br><br>
+        <input name="spark_p1class" type="text" placeholder="Class"><br><br>
+        <input name="spark_p1email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div id="paint3d">
+        <h5>Paint 3D</h5>
+        <p>Eligibility: III-IV</p>
+        <h6>Participant 1</h6>
+        <input name="paint3d_p1name" type="text" placeholder="Name"><br><br>
+        <input name="paint3d_p1class" type="text" placeholder="Class"><br><br>
+        <input name="paint3d_p1email" type="email" placeholder="Email"><br><br>
+    </div>
+    <div class="g-recaptcha" data-sitekey="6Lc4ZbEZAAAAACdfnJ9nLEAmdwEqiU8zZ1kZlvu2"></div><br>
+    <button type="submit" class="button-primary">Register</button>
+</form>
+
+  </div>
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script>
+     responsive = () => {
+      let nav = document.getElementById("navbar");
+      if (nav.className === "topnav") {
+        nav.className += " responsive";
+      } else {
+        nav.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>
