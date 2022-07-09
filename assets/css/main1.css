@@ -151,10 +151,6 @@ button[disabled], html input[disabled] {
     .btn-fit-small {
         padding: 8px 79px;
     }
-    .bt2 {
-	    margin-top: 60px;
-	    margin-left: 225px;
-    }
 }
 .hover-off:hover{
 	color: #333;
