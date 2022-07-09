@@ -138,6 +138,10 @@ button[disabled], html input[disabled] {
     .btn-fit {
         padding: 12px 90px;
     }
+    .bt2 {
+	    margin-top: 60px;
+	    margin-left: 225px;
+    }
 }
 .btn-fit-small {
 	color: #fff;
