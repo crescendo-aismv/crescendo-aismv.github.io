@@ -138,10 +138,6 @@ button[disabled], html input[disabled] {
     .btn-fit {
         padding: 12px 90px;
     }
-    .bt2 {
-	    margin-top: 60px;
-	    margin-left: 225px;
-    }
 }
 .btn-fit-small {
 	color: #fff;
@@ -151,6 +147,10 @@ button[disabled], html input[disabled] {
     .btn-fit-small {
         padding: 8px 79px;
     }
+    .bt2 {
+	    margin-top: 60px;
+	    margin-left: -225px;
+	}
 }
 .hover-off:hover{
 	color: #333;
@@ -217,6 +217,10 @@ a.btn.btn-tobais.btn-send:hover {
 @media only screen and (max-width: 768px) {
     .second{
 		text-align: left !important;
+	}
+      .bt2 {
+	    margin-top: 60px;
+	    margin-left: -225px;
 	}
 }
 
