@@ -4,3 +4,10 @@
     margin-left: -225px;
   }
 }
+@media only screen and (max-width: 360px) {
+  .bt2 {
+    margin-top: 60px;
+    margin-left: -240px;
+  }
+}
+
