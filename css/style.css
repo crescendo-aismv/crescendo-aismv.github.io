@@ -82,3 +82,10 @@ img {
   -webkit-background-size: contain;
   background-size: contain;
 }
+.fullsize{
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  left: -120px;
+  top: -200px;
+}
