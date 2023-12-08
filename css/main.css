@@ -3,6 +3,9 @@
 * {
 	outline: none;
 }
+#leader{
+	font-size: 20px;
+}
 a:hover {
 	text-decoration: none;
 }
