@@ -13,6 +13,9 @@ body {
 img {
   vertical-align: bottom;
 }
+.leadership{
+  font-size: 25px;
+}
 
 .gallery {
   overflow: hidden;
